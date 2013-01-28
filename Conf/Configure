@@ -1,0 +1,13 @@
+Fichiers drivers utilisé par la GateKNX pour communiquer avec les variables domotiques
+groupreadresponse_ros, groupswrite, groupwrite
+
+usage: groupwrite url eibaddr val val ...
+
+[utilisation]
+Agir sur des groupes d'addresse
+~$ groupwrite ip:192.168.0.104 1/5/1 1
+
+
+IMPORTANT
+---
+Ajouter les fichiers : groupreadresponse_ros, groupswrite, groupwrite dans /usr/bin
